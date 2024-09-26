@@ -13,7 +13,7 @@ const Footer = () => {
         alert("Link copiado: " + copyText);
       }
   return (
-    <div className="footer-wrapper  pt-24 flex" id="contato">
+    <div className="footer-wrapper  pt-24 flex " id="contato">
         <div className="footer-section-one  ">
             <div className="footer-logo-container ml-8 max-w-[160px]  ">
                 <img src={Logo} alt="logo" className="w-24" />
