@@ -10,7 +10,7 @@ const Footer = () => {
         alert("Link copiado: " + copyText);
       }
   return (
-    <div className="footer-wrapper container mx-auto py-24 flex" id="contato">
+    <div className="footer-wrapper container mx-8 py-24 flex" id="contato">
         <div className="footer-section-one justify-center">
             <div className="footer-logo-container max-w-xs">
                 <img src={Logo} alt="logo" className="w-24" />
