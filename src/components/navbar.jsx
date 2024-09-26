@@ -40,10 +40,10 @@ const Navbar = () => {
         <img src={Logo} alt="" className="w-24" />
       </div>
       <div className="mr-[3rem] text-black sm:inline hidden">
-        <a href="#home" className="mr-4 text-white text-lg font-medium">Home</a>
-        <a href="#about" className="mr-4 text-white text-lg font-medium">Sobre</a>
+        <a href="#principal" className="mr-4 text-white text-lg font-medium">Home</a>
+        <a href="#sobre" className="mr-4 text-white text-lg font-medium">Sobre</a>
         <a href="#contato" className="mr-4 text-white text-lg font-medium">Contato</a>
-        <a href="https://wa.me/todo" target="_blank" rel="noreferrer" className="py-[0.9rem] px-[1.75rem] bg-white rounded-full font-semibold text-lg">Agende agora</a>
+        <a href="https://wa.me/todo" target="_blank" rel="noreferrer" className="py-[0.9rem] px-[1.75rem] bg-white rounded-full font-semibold text-lg cursor-pointer">Agende agora</a>
       </div>
       <div className="sm:hidden inline">
         <AlignJustify onClick={() => setOpenMenu(true)} />
