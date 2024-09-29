@@ -32,7 +32,7 @@ const Work = () => {
         {workInfoData.map((data) => (
           <div className="work-section-info sm:mt-6 w-[290px] min-h-[350px] p-4 px-8 flex flex-col justify-center items-center text-center rounded-lg text-gray-500 my-4 " key={data.title}>
             <div className="info-boxes-img-container">
-              <data.Icon alt="" className="mt-6 w-28 h-full" color="#33599C"/>
+              <data.Icon alt="" className="mt-6 w-[90px] h-full" color="#33599C"/>
             </div>
             <h2 className="my-4 text-[1.5rem] font-extrabold">{data.title}</h2>
             <p className="flex-1 items-center font-semibold">{data.text}</p>

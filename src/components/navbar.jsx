@@ -12,6 +12,7 @@ import ListItemIcon from "@mui/material/ListItemIcon";
 import ListItemText from "@mui/material/ListItemText";
 // Lucide Icons
 import { House, Info, MessageSquareText, Phone, AlignJustify } from "lucide-react";
+import { Link } from "@mui/material";
 
 
 const Navbar = () => {
@@ -39,7 +40,7 @@ const Navbar = () => {
     }
   ];
   return (
-    <nav className="flex items-center justify-between  bg-primary p-3">
+    <nav className="flex items-center justify-between  bg-primary p-3 rounded-b-3xl">
       <div className="max-w-[160px] ml-4">
         <img src={Logo} alt="" className="w-24" />
       </div>
@@ -62,10 +63,13 @@ const Navbar = () => {
           <List>
             {menuOptions.map((data) => (
               <ListItem key={data.text} disablePadding>
-                <ListItemButton >
+                <Link href={data.href} underline="none"> 
+                <ListItemButton>
                   <ListItemIcon>{data.icon}</ListItemIcon>
                   <ListItemText primary={data.text} />
+                  
                 </ListItemButton>
+                </Link>
               </ListItem>
             ))}
           </List>
