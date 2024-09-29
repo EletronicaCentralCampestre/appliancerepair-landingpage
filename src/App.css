@@ -10,6 +10,16 @@
   max-width: 1920px;
   margin: 0rem auto;
 }
+.primary-heading {
+  font-size: clamp(2rem, 5vw, 4rem);
+  color: #4c4c4c;
+  /* line-height: 5rem; */
+  max-width: 600px;
+}
+.primary-text {
+  font-size: clamp(1rem, 3vw, 1.5rem);
+  
+}
 @media (max-width: 800px) {
   .App {
       max-width: 100vw;
