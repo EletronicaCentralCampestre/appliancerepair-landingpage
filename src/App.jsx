@@ -1,6 +1,6 @@
 import './App.css'
 import Footer from './components/footer'
-import Home from './components/home'
+import Show from './components/show'
 import Navbar from './components/navbar'
 import Repair from './components/repair'
 import Work from './components/work'
@@ -12,7 +12,7 @@ function App() {
     <main className='App'>
       <Navbar />
       {/* TODO */}
-      <Home />
+      <Show />
       <Repair />
       <Work />
       <Footer />
