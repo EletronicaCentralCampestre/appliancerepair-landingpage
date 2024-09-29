@@ -20,18 +20,22 @@ const Navbar = () => {
     {
       text: "Home",
       icon: <House />,
+      href: "#principal",
     },
     {
       text: "Sobre",
       icon: <Info />,
+      href: "#sobre",
     },
     {
       text: "Relatos",
       icon: <MessageSquareText />,
+      href: "#relatos",
     },
     {
       text: "Contato",
       icon: <Phone />,
+      href: "#contato",
     }
   ];
   return (
@@ -56,11 +60,11 @@ const Navbar = () => {
           onKeyDown={() => setOpenMenu(false)}
         >
           <List>
-            {menuOptions.map((item) => (
-              <ListItem key={item.text} disablePadding>
-                <ListItemButton>
-                  <ListItemIcon>{item.icon}</ListItemIcon>
-                  <ListItemText primary={item.text} />
+            {menuOptions.map((data) => (
+              <ListItem key={data.text} disablePadding>
+                <ListItemButton >
+                  <ListItemIcon>{data.icon}</ListItemIcon>
+                  <ListItemText primary={data.text} />
                 </ListItemButton>
               </ListItem>
             ))}
