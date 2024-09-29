@@ -11,7 +11,7 @@ import ListItemButton from "@mui/material/ListItemButton";
 import ListItemIcon from "@mui/material/ListItemIcon";
 import ListItemText from "@mui/material/ListItemText";
 // Lucide Icons
-import { House, Info, MessageSquareText, Phone, AlignJustify } from "lucide-react";
+import { House, Info,  Phone, AlignJustify,ArrowRight } from "lucide-react";
 import { Link } from "@mui/material";
 
 
@@ -26,12 +26,12 @@ const Navbar = () => {
     {
       text: "Sobre",
       icon: <Info />,
-      href: "#sobre",
+      href: "#about",
     },
     {
-      text: "Relatos",
-      icon: <MessageSquareText />,
-      href: "#relatos",
+      text: "Funcionamento",
+      icon: <ArrowRight />,
+      href: "#work",
     },
     {
       text: "Contato",
@@ -46,8 +46,9 @@ const Navbar = () => {
       </div>
       <div className="mr-[3rem] text-black sm:inline hidden">
         <a href="#principal" className="mr-4 text-white text-lg font-medium">Home</a>
-        <a href="#sobre" className="mr-4 text-white text-lg font-medium">Sobre</a>
-        <a href="#contato" className="mr-4 text-white text-lg font-medium">Contato</a>
+        <a href="#about" className="mr-4 text-white text-lg font-medium">Sobre</a>
+        <a href="#work" className="mr-4 text-white text-lg font-medium">Funcionamento</a>
+        <a href="#contact" className="mr-4 text-white text-lg font-medium">Contato</a>
         <a href="https://wa.me/todo" target="_blank" rel="noreferrer" className="py-[0.9rem] px-[1.75rem] bg-white rounded-full font-semibold text-lg cursor-pointer">Agende agora</a>
       </div>
       <div className="sm:hidden inline">

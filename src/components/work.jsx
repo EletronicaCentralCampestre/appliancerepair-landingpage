@@ -20,7 +20,7 @@ const Work = () => {
     },
   ];
   return (
-    <div className="work-section-wrapper mt-[15rem] sm:mt-[5rem]">
+    <div className="work-section-wrapper mt-[15rem] sm:mt-[5rem]" id="work">
       <div className="work-section-top flex justify-center items-center flex-col">
         <p className="primary-subheading sm:text-center text-center max-w-[600px] font-bold text-secondary text-xl">Funciona</p>
         <h1 className="primary-heading text-[#4c4c4c] max-w-[700px]">Como funciona?</h1>

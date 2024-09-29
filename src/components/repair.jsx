@@ -28,7 +28,7 @@ const Repair = () => {
         
     ]
   return (
-    <div className='text-center bg-primary py-[3rem]'>
+    <div className='text-center bg-primary py-[3rem]' id='repair'>
         <h1 className='primary-heading text-white'>Nós reparamos</h1>
         <div className=''>
             <div className=' items-center grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5'>
