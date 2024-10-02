@@ -6,15 +6,33 @@
 }
 .App {
   min-height: 100vh;
-  width: 85vw;
-  max-width: 1900px;
+  width: 100vw;
+  max-width: 1920px;
   margin: 0rem auto;
 }
 .primary-heading {
-  font-size: clamp(2rem, 5vw, 4rem);
+  font-size: clamp(2rem, 5vw, 2rem);
 }
 .primary-text {
   font-size: clamp(1rem, 3vw, 1.5rem);
+}
+video {
+  width: 100%;
+  height: auto;
+  border: none; /* Remove a borda do vídeo */
+}
+
+
+video::-webkit-media-controls-enclosure {
+  overflow: hidden;
+}
+
+video::-webkit-media-controls-panel {
+  width: calc(100% + 30px); /* Adiciona um pouco de largura para o hover */
+}
+
+video:hover::-webkit-media-controls-panel {
+  opacity: 1; /* Mostra os controles no hover */
 }
 @media (max-width: 800px) {
   .App {

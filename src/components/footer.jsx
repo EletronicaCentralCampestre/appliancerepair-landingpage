@@ -32,7 +32,8 @@ const Footer = () => {
         <span className='mx-2 my-1 font-semibold text-gray-500 cursor-pointer'>Work</span>
       </div>
       <div className="footer-section-columns flex flex-col min-w-[190px]">
-        <span className='mx-2 my-1 font-semibold text-gray-500 cursor-pointer'>(35)998784997</span>
+        <span className='mx-2 my-1 font-semibold text-gray-500 cursor-pointer'><a href="tel:+5535998784997">(35)998784997 - Matheus</a></span>
+        <span className='mx-2 my-1 font-semibold text-gray-500 cursor-pointer'><a href="35998784997">(35)998784997 - Matheus</a></span>
         <span className='mx-2 my-1 font-semibold text-gray-500 cursor-pointer'>eletronicacentral_campestre@hotmail.com</span>
         <span className='mx-2 my-1 font-semibold text-gray-500 cursor-pointer'>Rua Poços de Caldas, 85</span>
         
