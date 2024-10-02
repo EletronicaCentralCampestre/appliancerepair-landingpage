@@ -48,7 +48,6 @@ const Navbar = () => {
         <a href="#principal" className="mr-4 text-white text-lg font-medium">Home</a>
         <a href="#about" className="mr-4 text-white text-lg font-medium">Sobre</a>
         <a href="#work" className="mr-4 text-white text-lg font-medium">Funcionamento</a>
-        <a href="#contact" className="mr-4 text-white text-lg font-medium">Contato</a>
         <a href="tel:+553598784997" target="_blank" rel="noreferrer" className="py-[0.9rem] px-[1.75rem] bg-white rounded-full font-semibold text-lg cursor-pointer">Nos ligue (35)9878-4997</a>
       </div>
       <div className="sm:hidden inline">

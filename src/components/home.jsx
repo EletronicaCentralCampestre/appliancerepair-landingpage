@@ -1,7 +1,7 @@
 import React from "react";
 import video from "../assets/video-home.mp4"; // Substitua pelo caminho do seu vídeo
 
-const Form = () => {
+const Home = () => {
   const concordancias = {
     refrigerador: 'no',
     fogão: 'no',
@@ -18,7 +18,7 @@ const Form = () => {
 
     // Construindo a URL do WhatsApp
     const artigo = concordancias[servico] || 'em'; // Valor padrão caso o serviço não esteja no objeto
-    const whatsappUrl = `https://wa.me/+5511941888192?text=Olá,%20eu%20sou%20${nome}%20e%20estou%20com%20um%20problema ${artigo} ${servico} e queria fazer um orçamento.`;
+    const whatsappUrl = `https://wa.me/+5535998784997?text=Olá,%20eu%20sou%20${nome}%20e%20estou%20com%20um%20problema ${artigo} ${servico} e queria fazer um orçamento.`;
 
     // Redirecionando para a URL do WhatsApp
     window.location.href = whatsappUrl;
@@ -57,7 +57,7 @@ const Form = () => {
               <label className="block text-gray-700 text-sm font-bold " htmlFor="serviço">
                 O que está com problema?
               </label>
-              <select name="servico" className="border border-white rounded px-4 py-2 text-gray-700 text-sm font-semibold mb-2 shadow-md ">
+              <select name="servico" className="border border-gray rounded px-4 py-2 text-gray-700 text-sm font-semibold mb-2 shadow-md ">
                 <option value="geladeira">Geladeira</option>
                 <option value="fogão">Fogão</option>
                 <option value="maquina de lavar">Maquina de Lavar</option>
@@ -66,10 +66,11 @@ const Form = () => {
               </select>
             </div>
             {/* Outros campos do formulário (email, telefone, etc.) */}
-            <button className="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="submit"> 
-
+            <div className="flex justify-center">
+            <button className="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-5 rounded focus:outline-none focus:shadow-outline" type="submit"> 
               Enviar
             </button>
+            </div>
           </form>
           </div>
         </div>
@@ -78,4 +79,4 @@ const Form = () => {
   );
 };
 
-export default Form;
+export default Home;
