@@ -25,10 +25,10 @@ const Form = () => {
   };
 
   return (
-    <div className="bg-blue-500 min-h-[90vh] flex flex-col items-center justify-center">
+    <div className="bg-blue-500 min-h-[90vh] flex flex-col items-center justify-center" id="home">
       <div className="text-center py-9">
         <h1 className="primary-heading font-bold text-white mb-4">
-          ATENDEMOS TODOS  <br />
+          ATENDEMOS TODOS <br />
           APARELHOS DE ALTA QUALIDADE E BÁSICOS
         </h1>
         <p className="text-white text-lg">
@@ -41,7 +41,7 @@ const Form = () => {
         <div className="flex flex-wrap -mx-4">
           <div className="w-full md:w-1/2 px-4 my-8">
             {/* Seu vídeo aqui */}
-            <video autoplay loop muted className="w-full h-96">
+            <video controls autoplay loop muted className="w-full h-96">
               <source src={video} type="video/mp4" />
             </video>
           </div>
