@@ -12,7 +12,7 @@ const About = () => {
           Especialistas em consertos <br /> & manutenção
         </h1>
         <p className="text-gray-600">
-          Sua casa merece cuidados especiais. Desde 2016, somos referência em
+          Sua casa merece cuidados especiais. Desde 1987, somos referência em
           conserto de eletrodomésticos em Campestre-MG.
           <br /> Nossa equipe de técnicos
           especializados oferece soluções rápidas e eficientes para diversos
