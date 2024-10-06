@@ -26,10 +26,9 @@ const Footer = () => {
         </div>
     <div className="footer-section-two flex-1 flex justify-end">
       <div className="footer-section-columns  flex flex-col min-w-[190px]">
-        <span className='mx-2 my-1 font-semibold text-gray-500 cursor-pointer'>Qualidade</span>
+        <a href="#work"><span className='mx-2 my-1 font-semibold text-gray-500 cursor-pointer'>Qualidade</span></a>
         <a href="#home"><span className='mx-2 my-1 font-semibold text-gray-500 cursor-pointer'>Ajuda</span></a>
         <span className='mx-2 my-1 font-semibold text-gray-500 cursor-pointer' onClick={copyInput}>Compartilhar</span>
-        <span className='mx-2 my-1 font-semibold text-gray-500 cursor-pointer'>Work</span>
       </div>
       <div className="footer-section-columns flex flex-col min-w-[190px]">
         <span className='mx-2 my-1 font-semibold text-gray-500 cursor-pointer'><a href="tel:+5535998784997" >(35)998784997 - Mateus</a></span>
@@ -40,8 +39,6 @@ const Footer = () => {
         
       </div>
       <div className="footer-section-columns flex flex-col min-w-[190px]">
-        <span className='mx-2 my-1 font-semibold text-gray-500 cursor-pointer'>Terms & Conditions</span>
-        <span className='mx-2 my-1 font-semibold text-gray-500 cursor-pointer'>Privacy Policy</span>
         <span className='mx-2 my-1 font-semibold text-gray-500 cursor-pointer'>Feito com ❤ por <a href="https://www.linkedin.com/in/thiagoandrade072/">Thiago Silva Andrade</a></span>
       </div>
     </div>
