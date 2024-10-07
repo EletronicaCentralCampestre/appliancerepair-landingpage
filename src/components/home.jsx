@@ -25,7 +25,7 @@ const Home = () => {
   };
 
   return (
-    <div className="bg-blue-500 min-h-[90vh] flex flex-col items-center justify-center" id="home">
+    <div className="bg-primary min-h-[90vh] flex flex-col items-center justify-center" id="home">
       <div className="text-center py-9">
         <h1 className="primary-heading font-bold text-white mb-4">
           ATENDEMOS TODOS <br />
@@ -46,7 +46,7 @@ const Home = () => {
             </video>
           </div>
           <div className="w-full md:w-1/3 px-4">
-          <form onSubmit={handleSubmit} className="bg-white p-6 rounded-lg shadow-md mt-4">
+          <form onSubmit={handleSubmit} className="bg-white p-6 rounded-lg shadow-md mt-4 mb-8">
             <h1 className="text-gray-700 text-md font-bold mb-2">Com o que podemos te ajudar?</h1>
             <div className="mb-4">
               <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="nome">

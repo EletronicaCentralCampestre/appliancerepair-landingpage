@@ -40,7 +40,7 @@ const Navbar = () => {
     }
   ];
   return (
-    <nav className="flex items-center justify-between  bg-blue-500  p-3">
+    <nav className="flex items-center justify-between  bg-primary  p-3">
       <div className="max-w-[160px] ml-4">
         <img src={Logo} alt="" className="w-24" />
       </div>
